@@ -6,9 +6,9 @@ var username = process.env.username;
 var password = process.env.password;
 var shared_secret = process.env.shared;
 
-var games = [359550, 105600, 1281930, 730, 578080, 1144200, 1091500, 1245620, 457140, 555160, 250900, 2073850];  // Enter here AppIDs of the needed games
+var games = [359550, 105600, 1281930, 730, 578080, 1144200, 1091500, 1245620, 457140, 555160, 250900, 2073850, 360970];  // Enter here AppIDs of the needed games
 var status = 1;  // 1 - online, 7 - invisible
-// 레식 테라리아 티모드로더 카스2 배그 레오낫 사펑 엘든링 산미 파블로프 아이
+// 레식 테라리아 티모드로더 카스2 배그 레오낫 사펑 엘든링 산미 파블로프 아이 해븐포래수투
 
 user = new steamUser();
 user.logOn({"accountName": username, "password": password, "twoFactorCode": steamTotp.generateAuthCode(shared_secret)});
