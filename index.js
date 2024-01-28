@@ -7,7 +7,7 @@ var password = process.env.password;
 var shared_secret = process.env.shared;
 
 var games = [359550, 105600, 1281930, 730, 578080, 1144200, 1091500, 1245620, 457140, 555160, 250900, 367520];  // Enter here AppIDs of the needed games
-var status = 1;  // 1 - online, 7 - invisible
+var status = 7;  // 1 - online, 7 - invisible
 // 레식 테라리아 티모드로더 카스2 배그 레오낫 사펑 엘든링 산미 파블로프 할로우
 
 user = new steamUser();
